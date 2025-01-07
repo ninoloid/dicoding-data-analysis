@@ -22,7 +22,7 @@ def fetch_and_merge_data():
     ]
 
     # Base URL prefix
-    base_url = 'https://raw.githubusercontent.com/marceloreis/HTI/refs/heads/master/PRSA_Data_20130301-20170228/'
+    base_url = './PRSA_Data_20130301-20170228/'
 
     # Initialize an empty list to store DataFrames
     df_list = []
